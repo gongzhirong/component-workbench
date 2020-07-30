@@ -1,0 +1,29 @@
+{
+  "name": "liby-vue-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --mode dev",
+    "sit": "vue-cli-service build --mode sit",
+    "prod": "vue-cli-service build --mode prod",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^2.6.11",
+    "liby-mobile": "^0.1.2",
+    "view-design": "^4.1.3",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5",
+    "vuedraggable": "^2.23.2",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
